@@ -33,6 +33,12 @@ cd /patch/to/gameap && php artisan schedule:run >> /dev/null 2>&1
 
 touch /var/www/gameap/database.sqlite
 
-cd public
+sudo apt-get update
 
-php -S localhost:8080
+sudo apt update
+
+sudo apt-get upgrade
+
+sudo apt upgrade
+
+sudo reboot
